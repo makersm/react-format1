@@ -30,7 +30,7 @@ module.exports = {
                 exclude: /node_modules/,
                 query: {
                     cacheDirectory: true,
-                    presets: [['es2015', {module:false}], 'react']
+                    presets: [['es2015', {module:false}], 'react', 'stage-0']
                 }
             }
         ]
